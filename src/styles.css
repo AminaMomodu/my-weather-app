@@ -1,0 +1,19 @@
+body {
+  color: #49393c;
+  background-color: #f8afa6;
+}
+
+.weather-app {
+  background-color: #e7d2cc;
+  border-radius: 3px;
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 50px;
+  box-shadow: 0px 20px 50px 0px;
+}
+h1 {
+  color: rgb(27, 95, 72);
+  font-size: 500;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
