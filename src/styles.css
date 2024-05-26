@@ -11,9 +11,38 @@ body {
   padding: 50px;
   box-shadow: 0px 20px 50px 0px;
 }
-h1 {
+.search-form-input {
+  background-color: #dcf0ea;
+  margin: 0px auto;
+  padding: 10px;
+  border-color: #dcf0ea;
+  border-radius: 5px;
+  width: 80%;
+}
+.search-form-button {
+  background-color: rgb(27, 95, 72);
+  color: #dcf0ea;
+  padding: 10px;
+  border-radius: 5px;
+}
+.city {
   color: rgb(27, 95, 72);
-  font-size: 500;
+  font-size: 40px;
   font-style: italic;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 50px 0px 0px 0px;
+}
+.weather-app-data {
+  position: relative;
+  top: -120px;
+  left: 370px;
+  font-size: 60px;
+}
+.details {
+  color: rgb(114, 114, 110);
+  font-size: large;
+  padding: 20px 0px 0px 0px;
+}
+.figures {
+  color: red;
 }
