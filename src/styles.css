@@ -32,11 +32,26 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 50px 0px 0px 0px;
 }
-.weather-app-data {
+.weather-app-container {
   position: relative;
-  top: -120px;
-  left: 370px;
-  font-size: 60px;
+  top: -130px;
+  left: 400px;
+}
+
+.weather-app-icon {
+  font-size: 50px;
+  margin-top: 22px;
+}
+
+.weather-app-temperature {
+  font-size: 88px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.weather-app-unit {
+  margin-top: 10px;
+  font-size: 38px;
 }
 .details {
   color: rgb(114, 114, 110);
