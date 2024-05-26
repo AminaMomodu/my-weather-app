@@ -34,13 +34,13 @@ body {
 }
 .weather-app-container {
   position: relative;
-  top: -130px;
-  left: 400px;
+  top: -150px;
+  left: 350px;
 }
 
 .weather-app-icon {
-  font-size: 50px;
-  margin-top: 22px;
+  width: 88px;
+  height: 88px;
 }
 
 .weather-app-temperature {
@@ -50,7 +50,9 @@ body {
 }
 
 .weather-app-unit {
-  margin-top: 10px;
+  margin: -5px;
+  position: relative;
+  bottom: 30px;
   font-size: 38px;
 }
 .details {
