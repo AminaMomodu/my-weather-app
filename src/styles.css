@@ -63,13 +63,24 @@ body {
 .figures {
   color: red;
 }
-.weather-forecast-day {
-  font-size: 16px;
+
+.weather-forecast {
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-forecast-date {
+  font-size: large;
   color: #72726e;
+}
+.weather-forecast-icon {
+  font-size: 38px;
 }
 .weather-forecast-temperatures {
   color: red;
 }
-.weather-forecast-temperature-min {
+.weather-forecast-minimum {
   opacity: 0.5;
 }
