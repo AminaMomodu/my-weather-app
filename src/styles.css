@@ -56,10 +56,20 @@ body {
   font-size: 38px;
 }
 .details {
-  color: rgb(114, 114, 110);
+  color: #72726e;
   font-size: large;
   padding: 20px 0px 0px 0px;
 }
 .figures {
   color: red;
+}
+.weather-forecast-day {
+  font-size: 16px;
+  color: #72726e;
+}
+.weather-forecast-temperatures {
+  color: red;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }
